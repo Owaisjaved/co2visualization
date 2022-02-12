@@ -9,6 +9,7 @@
   },
   "keywords": [],
   "author": "",
+  "client": "npm run start --prefix ./frontend",
   "license": "ISC",
   "dependencies": {
     "chart.js": "^2.9.3",
