@@ -1,0 +1,60 @@
+body {
+  width: fit-content;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ /* width: auto; */
+ /* background-color:aquamarine; */
+}
+.Container .buttons{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color:beige;
+  
+}
+.Container .buttons>div{
+  /* width: 10%; */
+  margin: 0.5rem;
+  
+}
+.Container .buttons>div>*{
+  border: none;
+border-radius: 2rem;
+height: 2rem;
+background-color: black;
+color: azure;
+cursor: pointer;
+}
+.Container .IndividualChart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+flex-wrap: wrap;
+background-color:aquamarine;
+}
+.Container .OverallChart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  background-color: aqua;
+} 
